@@ -28,6 +28,6 @@ The basic structure of the repository is as follows, from the root folder:
 
 - **README.md**: File with instructions.
 
-- **env/**: Python environment for the project. Activate with ```conda activate env/``` and then ```pip install -r requirements```
+- **env/**: Python environment for the project. Activate with ```conda activate env/``` or ```pip install -r requirements``` to install it manually.
 
 - **requirements.txt**: File with the dependencies.
