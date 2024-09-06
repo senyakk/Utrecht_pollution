@@ -3,19 +3,29 @@ Repository for the Machine Learning in Industry Practical
 
 
 The basic structure of the repository is as follows, from the root folder:
-– data/ folder with the datasets.
-    ∗ raw/ folder with the raw data.
-    ∗ processed/ folder with the processed data.
-– src/ folder with the code.
-    ∗ data/ folder with the data pipeline.
-    ∗ features/ folder with the feature engineering pipeline.
-    ∗ models/ folder with the models.
-    ∗ utils/ folder with utility functions.
-– notebooks/ folder with the Jupyter notebooks.
-– results/ folder with the results.
-– tests/ folder with the tests.
-– deployment/ folder with the deployment code.
-– logs/ folder with the logs.
-– config/ folder with the configuration files.
-– README.md file with instructions.
-– requirements.txt file with the dependencies.
+
+- **data/**: Folder with the datasets.
+    - **raw/**: Folder with the raw data.
+    - **processed/**: Folder with the processed data.
+
+- **src/**: Folder with the code.
+    - **data/**: Folder with the data pipeline.
+    - **features/**: Folder with the feature engineering pipeline.
+    - **models/**: Folder with the models.
+    - **utils/**: Folder with utility functions.
+
+- **notebooks/**: Folder with the Jupyter notebooks.
+
+- **results/**: Folder with the results.
+
+- **tests/**: Folder with the tests.
+
+- **deployment/**: Folder with the deployment code.
+
+- **logs/**: Folder with the logs.
+
+- **config/**: Folder with the configuration files.
+
+- **README.md**: File with instructions.
+
+- **requirements.txt**: File with the dependencies.
