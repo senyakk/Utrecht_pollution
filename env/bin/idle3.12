@@ -1,0 +1,5 @@
+#!/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/bin/python3.12
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

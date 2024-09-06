@@ -1,0 +1,10 @@
+prefix=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env
+exec_prefix=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env
+libdir=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/lib
+includedir=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.0
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

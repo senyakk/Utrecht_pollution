@@ -1,0 +1,10 @@
+prefix=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhullstatic
+Description: Qhull static library
+Version: 8.0.2
+Libs: -L${libdir} -lqhullstatic
+Cflags: -I${includedir}
+

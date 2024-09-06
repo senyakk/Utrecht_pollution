@@ -1,0 +1,9 @@
+prefix=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include 
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.3.2
+Requires: libssl libcrypto

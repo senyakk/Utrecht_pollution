@@ -1,0 +1,35 @@
+{
+  "build": "py312h1f38498_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.9.2,<3.9.3.0a0",
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/golitsyn/anaconda3/pkgs/matplotlib-3.9.2-py312h1f38498_0",
+  "files": [],
+  "fn": "matplotlib-3.9.2-py312h1f38498_0.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/golitsyn/anaconda3/pkgs/matplotlib-3.9.2-py312h1f38498_0",
+    "type": 1
+  },
+  "md5": "dddd7fd8834329a4436deea957022433",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/golitsyn/anaconda3/pkgs/matplotlib-3.9.2-py312h1f38498_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "d5d332f2bb301eec1e43d4702f5332d8c32953ab7974e74da99a3fef94c00d86",
+  "size": 8884,
+  "subdir": "osx-arm64",
+  "timestamp": 1723759792668,
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/matplotlib-3.9.2-py312h1f38498_0.conda",
+  "version": "3.9.2"
+}

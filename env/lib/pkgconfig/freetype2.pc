@@ -1,0 +1,14 @@
+prefix=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env
+exec_prefix=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env
+libdir=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/lib
+includedir=/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/lib -lfreetype
+Libs.private: -lz -L/Users/golitsyn/Desktop/Uni/Work/MLIP/ml_industrty/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
