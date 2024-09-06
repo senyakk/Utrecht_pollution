@@ -28,4 +28,6 @@ The basic structure of the repository is as follows, from the root folder:
 
 - **README.md**: File with instructions.
 
+- **env/**: Python environment for the project. 
+
 - **requirements.txt**: File with the dependencies.
