@@ -24,8 +24,31 @@ A machine-learning pipeline to predict future air pollution levels in Utrecht. T
 ├──- logs/: Folder with the logs.
 ├──- config/: Folder with the configuration files.
 ├──- README.md: File with instructions.
-├── env/: Python environment for the project. Activate with ```conda activate env/``` or ```pip install -r requirements``` to install it manually.
+├── env/: Python environment for the project. 
 ├── requirements.txt: File with the dependencies.
 ```
+---
+
+## Code Instructions
+
+Activate environment with ```conda activate env/``` or alternatively create new environment manually by ```python -m venv myenv```, activate it with ```source myenv/bin/activate``` and install dependencies with ```pip install -r requirements.txt```.
+
+## Data preprocessing (not needed at this step)
+
+The data preprocessing can be run from src/data/main.py. It reads the datasets
+from data/raw and inserts the processed data into data/processed. The feature
+engineering is (for now) run from src/features/feature_eng.py which loads the
+preprocessed datasets and saves the pca transformed data into data/processed.
+
+## Model training and data preparation for the dashboard
+
+Running "python -m src.models.main" trains 6 different models (O3 and NO2
+linear regressor, O3 and NO2 LSTM, O3 and NO2 MLP). It saves all the data
+shown in the dashboard under "results". The number of time steps to predict
+can be specified under "n_steps_predict", and the month to predict under
+"month". The data under results currently shows the model's predictions for
+April. 
+
+The dashboard is run via ```streamlit run src/utils/dashboard.py```.
 
 
