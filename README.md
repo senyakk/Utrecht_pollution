@@ -4,6 +4,10 @@
 
 A machine-learning pipeline to predict future air pollution levels in Utrecht. This is a system for predicting NO2 and O3 levels in Utrecht over a three-day period. Pollutant prediction is based on forecasted meteorological variables. The deployed MLP model can be accessed on [HuggingFace](https://huggingface.co/spaces/MLINPrediction/pollution_prediction) and features a user-friendly interface that provides accessible predictions, along with an alert mechanism to notify users of unusual or extreme conditions.
 
+<div align="center">
+  <img width="560" alt="Screenshot 2025-06-20 at 10 46 10" src="https://github.com/user-attachments/assets/5ff23255-5e27-4a84-8f4a-2f4841750795" />
+</div>
+
 ---
 
 ## Project Structure
