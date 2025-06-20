@@ -1,4 +1,10 @@
-# ml_industrty
+# Air Pollution Prediction in Utrecht
+
+--
+
+This project focuses on building a scalable automated air pollution forecasting system to predict NO\textsubscript{2} and O\textsubscript{3} levels in Utrecht over a three-day period. Pollutant prediction is based on forecasted meteorological variables. The deployed MLP model features a user-friendly interface that provides accessible predictions, along with an alert mechanism to notify users of unusual or extreme conditions.
+
+--
 
 The basic structure of the repository is as follows, from the root folder:
 
