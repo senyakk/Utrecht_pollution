@@ -31,7 +31,9 @@ A machine-learning pipeline to predict future air pollution levels in Utrecht. T
 
 ## Code Instructions
 
-Activate environment with ```conda activate env/``` or alternatively create new environment manually by ```python -m venv myenv```, activate it with ```source myenv/bin/activate``` and install dependencies with ```pip install -r requirements.txt```.
+Activate environment with ```conda activate env/``` 
+
+Or alternatively create new environment manually by ```python -m venv myenv```, activate it with ```source myenv/bin/activate``` and install dependencies with ```pip install -r requirements.txt```.
 
 ## Data preprocessing (not needed at this step)
 
