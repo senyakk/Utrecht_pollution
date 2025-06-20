@@ -39,7 +39,7 @@ Or alternatively create new environment manually by ```python -m venv myenv```, 
 
 The data preprocessing can be run from src/data/main.py. It reads the datasets
 from data/raw and inserts the processed data into data/processed. The feature
-engineering is (for now) run from src/features/feature_eng.py which loads the
+engineering is run from src/features/feature_eng.py which loads the
 preprocessed datasets and saves the pca transformed data into data/processed.
 
 ## Model training and data preparation for the dashboard
